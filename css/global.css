@@ -1,14 +1,10 @@
+
 * {
     padding: 0;
     margin:0;
     box-sizing: border-box;
     background-color:rgb(255, 255, 255);
-    color: #000000;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
-header {
-    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 li {
@@ -39,11 +35,8 @@ a {
     font-size: 24px;
 }
 
-.nav-link {
-    transition: 0.7s ease;
-}
-
 .nav-link:hover {
+    transition: 0.7s ease;
     color: #e097d2;
 }
 
@@ -65,17 +58,32 @@ a {
 main {
     font-size: 18px;
     margin:10px 20% 10px 50px;
+    line-height: 25px;
 }
-
 
 footer {
     text-align: center;
     position: absolute;
-    font-size: 16px;
-    bottom: 0;
+    bottom: 50px;
     width: 100%;
     height: 2.5rem;
+    
   }
+
+.social-icon {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.social-link:hover {
+    transition: 0.7s ease;
+    color: #e097d2;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
 
 @media (max-width: 600px){ 
     .hamburger {
@@ -100,7 +108,6 @@ footer {
         top: 70px;
         gap:5px;
         flex-direction: column;
-        background-color:rgb(255, 255, 255);
         width: 100%;
         text-align: center;
         transition: 0.3s;
